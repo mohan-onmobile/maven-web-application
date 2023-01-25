@@ -98,17 +98,17 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://18.218.2.29:8081/repository/walmar-release/</url>
+	      <url>http://18.218.2.29:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.218.2.29:8081/repository/walmart-snapshot/</url>
+	      <url>http://18.218.2.29:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-	
+	http://18.218.2.29:8081/repository/maven-snapshots/
 	<build>
 		<finalName>maven-web-application</finalName>
 		
